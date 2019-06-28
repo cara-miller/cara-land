@@ -6,8 +6,11 @@ export default () => (
   <div>
     <h1 style={divStyle}>Cara M. Miller</h1>
     <Layout>
-      <h2>About</h2>
-      <p>bla bla</p>
+      <h2>Under construction</h2>
+      <p>
+        feel free to check out <a href="https://margot.land">margot.land</a> in
+        the mean time
+      </p>
     </Layout>
   </div>
 )

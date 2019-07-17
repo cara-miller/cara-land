@@ -8,8 +8,12 @@ export default () => (
     <Layout>
       <h2>Under construction</h2>
       <p>
-        feel free to check out <a href="https://margot.land">margot.land</a> in
-        the mean time
+        Sometime soon this will be a professional website that goes beyond the
+        resume you already have.
+        <br />
+        <br />
+        You can always check out my personal blog{" "}
+        <a href="https://margot.land">margot.land</a>!
       </p>
     </Layout>
   </div>

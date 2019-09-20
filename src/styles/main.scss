@@ -2,7 +2,7 @@
 @import "components/button";
 @import "components/site-header";
 @import "components/site-footer";
-@import "components/article";
+@import "components/section";
 @import "components/social-links";
 @import "components/navigation";
 // * {
@@ -22,9 +22,18 @@ html {
 
 body {
   font-family: "Caudex", serif;
-
-  text-align: center;
   background-color: red;
+}
+
+h1 {
+  font-family: "Cinzel", serif;
+  font-weight: bold;
+}
+
+.Heisenberg {
+  font-family: Heisenberg;
+  font-weight: normal;
+  font-style: normal;
 }
 
 .site {

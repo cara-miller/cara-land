@@ -19,12 +19,11 @@ export default function Navigation() {
   return (
     <nav className="header-navigation">
       <ul className="nav-ul">
-        <ListLink to="/work">Home</ListLink>
-        <ListLink to="/writing/">About</ListLink>
-        <ListLink to="/about">Projects</ListLink>
-        <ListLink to="/contact">Contact</ListLink>
+        <ListLink to="#hero">Home</ListLink>
+        <ListLink to="#about">About</ListLink>
+        <ListLink to="#projects">Projects</ListLink>
+        <ListLink to="#contact">Contact</ListLink>
       </ul>
-      <hr />
     </nav>
   )
 }

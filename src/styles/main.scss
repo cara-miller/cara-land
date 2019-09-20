@@ -1,0 +1,49 @@
+@import "variables";
+@import "components/button";
+@import "components/site-header";
+@import "components/site-footer";
+@import "components/article";
+@import "components/social-links";
+@import "components/navigation";
+// * {
+//   &,
+//   &::before,
+//   &::after {
+//     box-sizing: border-box;
+//   }
+// }
+
+html {
+  font-size: 100%;
+  min-height: 100vh;
+  height: 100%;
+  color: $black;
+}
+
+body {
+  font-family: "Caudex", serif;
+
+  text-align: center;
+  background-color: red;
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: orange;
+}
+
+.content {
+  flex: 1 0 auto;
+  background-color: lightyellow;
+}
+.site-footer {
+  background-color: pink;
+  margin-top: auto;
+}
+a {
+  outline: none;
+  color: $muted-pink;
+  text-decoration: none;
+}

@@ -1,12 +1,13 @@
 import React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 import PropTypes from "prop-types"
+import AnchorLink from "react-anchor-link-smooth-scroll"
 
 const ListLink = ({ to, children }) => (
   <li className="nav-li">
-    <Link className="nav-link" to={to}>
+    <AnchorLink href={to} className="nav-link">
       {children}
-    </Link>
+    </AnchorLink>
   </li>
 )
 

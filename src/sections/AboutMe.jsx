@@ -1,10 +1,10 @@
 import React from "react"
-import Section from "../components/Section"
+import Article from "../components/Article"
 
 export default function AboutMe() {
   return (
-    <Section sectionTitle="About Me" id="about">
+    <Article articleTitle="About Me" id="about">
       <h2>You could say I’m fullstack for the front end.</h2>
-    </Section>
+    </Article>
   )
 }

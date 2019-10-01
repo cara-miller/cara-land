@@ -1,10 +1,10 @@
 import React from "react"
-import Section from "../components/Section"
+import Article from "../components/Article"
 
 export default function Contact() {
   return (
-    <Section sectionTitle="Contact" id="contact">
+    <Article articleTitle="Contact" id="contact">
       <h2>Let&apos;s build something enchanting</h2>
-    </Section>
+    </Article>
   )
 }

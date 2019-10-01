@@ -1,10 +1,10 @@
 import React from "react"
-import Section from "../components/Section"
+import Article from "../components/Article"
 
 export default function Projects() {
   return (
-    <Section sectionTitle="Projects" id="projects">
+    <Article articleTitle="Projects" id="projects">
       <p>we&apos;ll need some tiles I guess</p>
-    </Section>
+    </Article>
   )
 }

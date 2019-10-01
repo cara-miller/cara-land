@@ -1,14 +1,14 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import Header from "../components/Header"
+import SiteHeader from "../components/SiteHeader"
 import Footer from "../components/Footer"
 import "../styles/main.scss"
 
 export default function Wrapper({ children }) {
   return (
     <div className="site">
-      <Header />
+      <SiteHeader />
       <div className="content">{children}</div>
       <Footer />
     </div>
@@ -16,5 +16,5 @@ export default function Wrapper({ children }) {
 }
 
 Wrapper.propTypes = {
-  children: PropTypes.element.isRequired
+  children: PropTypes.node.isRequired
 }

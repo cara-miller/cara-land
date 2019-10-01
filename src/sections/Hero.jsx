@@ -1,14 +1,14 @@
 import React from "react"
-import Section from "../components/Section"
 
 export default function Hero() {
   return (
-    <Section sectionTitle="Hi, I'm Cara Margot." id="hero">
+    <article id="hero" className="article article__no-border">
+      <h1>Hi, I&apos;m Cara Margot.</h1>
       <h2>
         Web development,
         <br />
-        UX design, Design Systems, <br />& general front end witchcraft
+        UX research, Design Systems, <br />& general front end magic
       </h2>
-    </Section>
+    </article>
   )
 }

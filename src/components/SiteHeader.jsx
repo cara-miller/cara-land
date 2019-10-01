@@ -1,13 +1,13 @@
 import React from "react"
+import Headroom from "react-headroom"
 import Navigation from "./Navigation"
 
-const Header = () => (
-  <>
+const SiteHeader = () => (
+  <Headroom>
     <header className="site-header">
       <Navigation />
     </header>
-    <hr className="nav-line" />
-  </>
+  </Headroom>
 )
 
-export default Header
+export default SiteHeader

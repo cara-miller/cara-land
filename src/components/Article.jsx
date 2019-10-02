@@ -3,9 +3,11 @@ import PropTypes from "prop-types"
 
 export default function Article({ children, articleTitle, id, articleClass }) {
   return (
-    <article className={articleClass} id={id}>
-      <h1 className="article-header">{articleTitle}</h1>
-      <section className="section-content">{children}</section>
+    <article className="article" id={id}>
+      <div className={`article-wrapper ${articleClass}`}>
+        <h1 className="article-header">{articleTitle}</h1>
+        <section className="section-content">{children}</section>
+      </div>
     </article>
   )
 }
@@ -18,6 +20,6 @@ Article.propTypes = {
 }
 
 Article.defaultProps = {
-  articleClass: "article",
+  articleClass: "article__with-border",
   articleTitle: null
 }

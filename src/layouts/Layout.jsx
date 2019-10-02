@@ -10,14 +10,11 @@ require("typeface-cinzel")
 
 export default function Wrapper({ children }) {
   return (
-    <>
-      {/* <meta name="viewport" content="width=device-width" /> */}
-      <div className="site">
-        <SiteHeader />
-        <div className="content">{children}</div>
-        <Footer />
-      </div>
-    </>
+    <div className="site">
+      <SiteHeader />
+      <div className="content">{children}</div>
+      {/* <Footer /> */}
+    </div>
   )
 }
 

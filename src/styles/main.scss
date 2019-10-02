@@ -2,20 +2,12 @@
 @import "components/button";
 @import "components/site-header";
 @import "components/site-footer";
-@import "components/section";
+@import "components/article";
 @import "components/social-links";
-@import "components/navigation";
-// * {
-//   &,
-//   &::before,
-//   &::after {
-//     box-sizing: border-box;
-//   }
-// }
 
 html {
   font-size: 100%;
-  min-height: 100vh;
+
   height: 100%;
   color: $black;
 }
@@ -23,36 +15,40 @@ html {
 body {
   font-family: "Caudex", serif;
   background-color: red;
-}
-
-h1 {
-  font-family: "Cinzel", serif;
-  font-weight: bold;
-}
-
-.Heisenberg {
-  font-family: Heisenberg;
-  font-weight: normal;
-  font-style: normal;
+  margin: 0px;
 }
 
 .site {
   display: flex;
-  min-height: 100vh;
+  justify-content: center;
+  display: flex;
+  // min-height: 100vh;
   flex-direction: column;
   background-color: orange;
 }
 
 .content {
-  flex: 1 0 auto;
-  background-color: lightyellow;
+  // flex: 1 0 auto;
+  background-color: yellow;
 }
 .site-footer {
-  background-color: pink;
+  background-color: blue;
   margin-top: auto;
 }
 a {
   outline: none;
   color: $muted-pink;
   text-decoration: none;
+}
+
+h1 {
+  font-family: "Cinzel", serif;
+  font-weight: bold;
+  font-size: 4em;
+}
+
+h2 {
+  font-family: "Caudex", serif;
+  font-weight: bold;
+  font-size: 2em;
 }

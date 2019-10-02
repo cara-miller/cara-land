@@ -1,11 +1,11 @@
 import React from "react"
-// import { Link } from "gatsby"
+
 import PropTypes from "prop-types"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 
-const ListLink = ({ to, children }) => (
+const ListLink = ({ to, children, offset }) => (
   <li className="nav-li">
-    <AnchorLink href={to} className="nav-link">
+    <AnchorLink href={to} offset={offset} className="nav-link">
       {children}
     </AnchorLink>
   </li>
@@ -13,14 +13,17 @@ const ListLink = ({ to, children }) => (
 
 ListLink.propTypes = {
   to: PropTypes.string.isRequired,
-  children: PropTypes.string.isRequired
+  children: PropTypes.string.isRequired,
+  offset: PropTypes.any.isRequired
 }
 
 export default function Navigation() {
   return (
     <nav className="header-navigation">
       <ul className="nav-ul">
-        <ListLink to="#hero">Home</ListLink>
+        <ListLink to="#hero" offset="100">
+          Home
+        </ListLink>
         <ListLink to="#about">About</ListLink>
         <ListLink to="#projects">Projects</ListLink>
         <ListLink to="#contact">Contact</ListLink>

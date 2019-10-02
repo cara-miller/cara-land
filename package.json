@@ -30,7 +30,9 @@
     "react-dom": "^16.8.6",
     "react-headroom": "^2.2.8",
     "react-helmet": "^5.2.1",
-    "react-icons": "^3.7.0"
+    "react-icons": "^3.7.0",
+    "typeface-caudex": "^0.0.72",
+    "typeface-cinzel": "^0.0.72"
   },
   "devDependencies": {
     "eslint": "^6.2.1",

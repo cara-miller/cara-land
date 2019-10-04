@@ -8,6 +8,9 @@
 }
 
 .article__with-border {
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
   border-style: solid;
   border-color: $light-gold;
   border-width: 2px;
@@ -21,8 +24,8 @@
   display: flex;
   justify-content: center;
   background-color: $black;
+  min-height: 95vh;
   padding: 2vh;
-  height: 95vh;
   margin: 10px;
   @media (min-width: 800px) {
     margin: 45px;
@@ -41,25 +44,6 @@
     text-align: left;
     margin: 10px 0px 0px;
   }
-}
-.article-subheader {
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 94.07%;
-  letter-spacing: 0.03em;
-  color: $light-gold;
-  text-align: center;
-  order: 0;
-  margin: 10px 0px;
-  @media (min-width: 450px) {
-    font-size: 2em;
-    text-align: left;
-  }
-}
-
-.article-content {
-  color: $white;
-  display: flex;
 }
 
 .hero-header {

@@ -4,10 +4,9 @@
 @import "components/site-footer";
 @import "components/article";
 @import "components/social-links";
-
+@import "components/section";
 html {
   font-size: 100%;
-
   height: 100%;
   color: $black;
 }
@@ -21,15 +20,10 @@ body {
 .site {
   display: flex;
   justify-content: center;
-  display: flex;
   flex-direction: column;
   // background-color: orange;
 }
 
-.content {
-  // flex: 1 0 auto;
-  // background-color: yellow;
-}
 .site-footer {
   background-color: blue;
   margin-top: auto;
@@ -46,11 +40,6 @@ h1 {
   font-size: 4em;
 }
 
-// h2 {
-//   font-family: "Caudex", serif;
-//   font-weight: bold;
-//   font-size: 2em;
-// }
 rwd-line {
   display: block;
   @media (min-width: 450px) {

@@ -6,7 +6,7 @@ export default function Article({ children, articleTitle, id, articleClass }) {
     <article className="article" id={id}>
       <div className={`article-wrapper ${articleClass}`}>
         <h1 className="article-title">{articleTitle}</h1>
-        <section className="section-content">{children}</section>
+        <section className="section-content-wrapper">{children}</section>
       </div>
     </article>
   )

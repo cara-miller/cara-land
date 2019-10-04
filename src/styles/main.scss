@@ -14,7 +14,7 @@ html {
 
 body {
   font-family: "Caudex", serif;
-  background-color: red;
+  background-color: $black;
   margin: 0px;
 }
 
@@ -22,14 +22,13 @@ body {
   display: flex;
   justify-content: center;
   display: flex;
-  // min-height: 100vh;
   flex-direction: column;
-  background-color: orange;
+  // background-color: orange;
 }
 
 .content {
   // flex: 1 0 auto;
-  background-color: yellow;
+  // background-color: yellow;
 }
 .site-footer {
   background-color: blue;
@@ -47,8 +46,14 @@ h1 {
   font-size: 4em;
 }
 
-h2 {
-  font-family: "Caudex", serif;
-  font-weight: bold;
-  font-size: 2em;
+// h2 {
+//   font-family: "Caudex", serif;
+//   font-weight: bold;
+//   font-size: 2em;
+// }
+rwd-line {
+  display: block;
+  @media (min-width: 450px) {
+    display: inline;
+  }
 }

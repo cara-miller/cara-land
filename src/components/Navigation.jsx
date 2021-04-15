@@ -14,7 +14,7 @@ const ListLink = ({ to, children, offset }) => (
 ListLink.propTypes = {
   to: PropTypes.string.isRequired,
   children: PropTypes.string.isRequired,
-  offset: PropTypes.any.isRequired
+  offset: PropTypes.any
 }
 
 export default function Navigation() {
@@ -24,9 +24,9 @@ export default function Navigation() {
         <ListLink to="#hero" offset="100">
           Home
         </ListLink>
-        <ListLink to="#about" offset="">About</ListLink>
-        <ListLink to="#projects" offset="">Projects</ListLink>
-        <ListLink to="#contact" offset="">Contact</ListLink>
+        <ListLink to="#about" >About</ListLink>
+        <ListLink to="#projects" >Projects</ListLink>
+        <ListLink to="#contact" >Contact</ListLink>
       </ul>
     </nav>
   )

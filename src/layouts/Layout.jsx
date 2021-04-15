@@ -4,9 +4,8 @@ import PropTypes from "prop-types"
 import SiteHeader from "../components/SiteHeader"
 import Footer from "../components/Footer"
 import "../styles/main.scss"
-
-require("typeface-caudex")
-require("typeface-cinzel")
+import "@fontsource/open-sans"
+import "@fontsource/cinzel"
 
 export default function Wrapper({ children }) {
   return (

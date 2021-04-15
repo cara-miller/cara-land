@@ -15,9 +15,9 @@
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.23.1",
+    "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^1.7",
-    "gatsby": "^2.32.12",
+    "gatsby": "^3.3.0",
     "gatsby-plugin-react-helmet": "^3.10.0",
     "gatsby-plugin-sass": "^2.8.0",
     "gatsby-source-filesystem": "^2.11.1",
@@ -31,13 +31,16 @@
     "react-headroom": "^2.2.8",
     "react-helmet": "^5.2.1",
     "react-icons": "^3.11.0",
-    "typeface-caudex": "^0.0.72",
     "typeface-cinzel": "^0.0.72"
   },
   "devDependencies": {
-    "eslint": "^6.2.1",
+    "eslint": "^7.24.0",
     "eslint-config-prettier": "^6.15.0",
+    "postcss": "^8.2.10",
     "prettier": "^1.17.0"
+  },
+  "peerDependencies": {
+    "postcss": "^8.0.0"
   },
   "repository": {
     "type": "git",

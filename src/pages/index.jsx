@@ -5,7 +5,7 @@ import AboutMe from "../sections/AboutMe"
 import Projects from "../sections/Projects"
 import Contact from "../sections/Contact"
 
-export default () => (
+const Index = () => (
   <Layout>
     <Hero id="hero" />
     <AboutMe id="aboutMe" />
@@ -13,3 +13,4 @@ export default () => (
     <Contact id="contact" />
   </Layout>
 )
+export default Index;

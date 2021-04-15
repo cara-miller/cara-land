@@ -24,9 +24,9 @@ export default function Navigation() {
         <ListLink to="#hero" offset="100">
           Home
         </ListLink>
-        <ListLink to="#about">About</ListLink>
-        <ListLink to="#projects">Projects</ListLink>
-        <ListLink to="#contact">Contact</ListLink>
+        <ListLink to="#about" offset="">About</ListLink>
+        <ListLink to="#projects" offset="">Projects</ListLink>
+        <ListLink to="#contact" offset="">Contact</ListLink>
       </ul>
     </nav>
   )
